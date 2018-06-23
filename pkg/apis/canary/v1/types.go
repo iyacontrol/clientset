@@ -50,7 +50,6 @@ type CanarySpec struct {
 
 	ShadowAddr string `json:"shadowAddr"`
 	ShadowPort int    `json:"shadowPort"`
-	Namespace  string `json:"namespace"`
 }
 
 // CanaryStatus is the status for a Canary resource
